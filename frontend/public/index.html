@@ -1,0 +1,73 @@
+info
+
+code
+Code
+
+preview
+Preview
+
+Deploy
+Deploy
+Robot
+**Excellent! Now let's add the frontend structure! 📂**
+
+Ask Question
+Agent is asking a question, Please answer it to further continue :
+Perfect! Now let's create the frontend folder structure! 📂
+
+FILE 3: Create Frontend Package
+Click "Create new file"
+Filename: frontend/package.json
+Copy/paste this:
+{
+  "name": "thornedmagnolia-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "@stripe/stripe-js": "^2.1.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.263.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+Click "Commit new file"
+FILE 4: Main HTML Template
+Click "Create new file"
+Filename: frontend/public/index.html
+Copy/paste this:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#C4B5A0" />
+    <title>Thorned Magnolia Collective</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
